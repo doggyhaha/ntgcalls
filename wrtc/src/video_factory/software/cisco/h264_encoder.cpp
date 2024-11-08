@@ -2,7 +2,7 @@
 // Created by Laky64 on 04/11/24.
 //
 
-#ifndef IS_ANDROID
+#ifdef IS_ANDROID
 #include <utility>
 #include <libyuv/scale.h>
 #include <wels/codec_ver.h>

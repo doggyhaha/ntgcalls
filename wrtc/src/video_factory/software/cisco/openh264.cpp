@@ -11,12 +11,12 @@
 namespace openh264 {
 
     void addEncoders(std::vector<wrtc::VideoEncoderConfig>& encoders) {
-        encoders.emplace_back(
-            webrtc::kVideoCodecH264,
-            [](auto) {
-                return std::make_unique<H264Encoder>(webrtc::CreateEnvironment());
-            }
-        );
+        //encoders.emplace_back(
+        //    webrtc::kVideoCodecH264,
+        //    [](auto) {
+        //        return std::make_unique<H264Encoder>(webrtc::CreateEnvironment());
+        //    }
+        //);
     }
 
     void addDecoders(std::vector<wrtc::VideoDecoderConfig>& decoders) {

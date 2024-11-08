@@ -33,7 +33,7 @@ get_filename_component(props_loc    "version.properties" REALPATH)
 include(cmake/FindWebRTC.cmake)
 include(cmake/FindLibCXX.cmake)
 include(cmake/FindBoost.cmake)
-include(cmake/FindOpenH264.cmake)
+# include(cmake/FindOpenH264.cmake)
 include(cmake/FindFFmpeg.cmake)
 
 # pybind11

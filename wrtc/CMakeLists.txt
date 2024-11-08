@@ -10,7 +10,7 @@ target_link_libraries(wrtc PUBLIC WebRTC::webrtc)
 target_link_libraries(wrtc PRIVATE nlohmann_json::nlohmann_json)
 
 if (NOT ANDROID)
-    target_link_libraries(wrtc PRIVATE cisco::OpenH264 ffmpeg::avcodec ffmpeg::avformat ffmpeg::avutil)
+    target_link_libraries(wrtc PRIVATE ffmpeg::avcodec ffmpeg::avformat ffmpeg::avutil)
 endif ()
 
 setup_platform_libs(wrtc)

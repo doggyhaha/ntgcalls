@@ -4,7 +4,7 @@
 
 #pragma once
 
-#ifndef IS_ANDROID
+#ifdef IS_ANDROID
 #include <wels/codec_api.h>
 #include <api/environment/environment.h>
 #include <api/video/i420_buffer.h>
